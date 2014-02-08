@@ -2,7 +2,7 @@ package de.is.project.shop.api.domain;
 
 import java.util.Collection;
 
-public interface Product {
+public interface Product extends Entity {
 
 	Producer getProducer();
 

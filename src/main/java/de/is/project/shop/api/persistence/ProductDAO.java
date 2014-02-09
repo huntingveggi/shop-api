@@ -11,7 +11,7 @@ public interface ProductDAO {
 
 	Product findById(int id);
 
-	Collection<Product> findByAttributes(HashMap<String, String> map);
+	Collection<Product> findByAttributes(HashMap<String, Object> map);
 
 	Product update(Product product);
 

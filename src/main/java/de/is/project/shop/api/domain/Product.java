@@ -2,9 +2,13 @@ package de.is.project.shop.api.domain;
 
 import java.util.Collection;
 
+<<<<<<< HEAD
 public interface Product {
 	
 	public String getName();
+=======
+public interface Product extends Entity {
+>>>>>>> 47ee8d93ccf29232185e44485c82fe3f619a1d77
 
 	public void setName(String name);
 

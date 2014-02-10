@@ -9,4 +9,8 @@ public interface ShoppingCartPosition {
 	public int getQuantity();
 
 	public void setQuantity(int quantity);
+	
+	public double getTotal();
+	
+	public void setTotal(double total);
 }

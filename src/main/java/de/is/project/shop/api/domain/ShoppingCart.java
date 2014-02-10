@@ -9,4 +9,8 @@ public interface ShoppingCart {
 	public Customer getCustomer();
 
 	public void setCustomer(Customer customer);
+	
+	public double getTotal();
+	
+	public void setTotal();
 }

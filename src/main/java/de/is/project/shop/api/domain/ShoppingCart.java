@@ -2,7 +2,7 @@ package de.is.project.shop.api.domain;
 
 import java.util.Collection;
 
-public interface ShoppingCart {
+public interface ShoppingCart extends Visitable{
 	
 	public Collection<ShoppingCartPosition> getShoppingCartPositions();
 
@@ -12,5 +12,5 @@ public interface ShoppingCart {
 	
 	public double getTotal();
 	
-	public void setTotal();
+	public void setTotal(double total);
 }

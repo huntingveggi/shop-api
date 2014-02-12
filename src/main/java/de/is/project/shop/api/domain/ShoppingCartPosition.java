@@ -1,6 +1,6 @@
 package de.is.project.shop.api.domain;
 
-public interface ShoppingCartPosition {
+public interface ShoppingCartPosition{
 	
 	public Product getProduct();
 

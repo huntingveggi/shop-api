@@ -2,19 +2,17 @@ package de.is.project.shop.api.domain;
 
 import java.util.Collection;
 
-<<<<<<< HEAD
-public interface Product {
+public interface Product extends Entity {
+
+	public void setId(int id);
 	
 	public String getName();
-=======
-public interface Product extends Entity {
->>>>>>> 47ee8d93ccf29232185e44485c82fe3f619a1d77
-
+	
 	public void setName(String name);
 
 	public Collection<Category> getCategories();
 	
-	public Collection<Attribute> getaAttributes();
+	public Collection<Attribute> getAttributes();
 
 	public Producer getProducer();
 
@@ -44,8 +42,8 @@ public interface Product extends Entity {
 
 	public void setMeasurand(String measurand);
 
-	public boolean isSecialOffer();
+	public boolean isSpecialOffer();
 
-	public void setIsSpecialOffer(boolean isSpecialOffer);
+	public void setSpecialOffer(boolean isSpecialOffer);
 
 }

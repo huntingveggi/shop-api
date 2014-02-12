@@ -3,6 +3,11 @@ package de.is.project.shop.api.domain;
 import java.util.Collection;
 
 public interface Product extends Entity {
+<<<<<<< HEAD
+=======
+
+	public String getName();
+>>>>>>> dbc4627839905e209a638e7d9be4175d50d2fafa
 
 	public void setId(int id);
 	
@@ -11,8 +16,13 @@ public interface Product extends Entity {
 	public void setName(String name);
 
 	public Collection<Category> getCategories();
+<<<<<<< HEAD
 	
 	public Collection<Attribute> getAttributes();
+=======
+
+	public Collection<Attribute> getaAttributes();
+>>>>>>> dbc4627839905e209a638e7d9be4175d50d2fafa
 
 	public Producer getProducer();
 

@@ -3,7 +3,7 @@ package de.is.project.shop.api.domain;
 import java.util.Collection;
 import java.util.Date;
 
-public interface Order {
+public interface Order extends Entity {
 
 	public Collection<OrderItem> getItems();
 	

@@ -1,7 +1,7 @@
 package de.is.project.shop.api.domain;
 
 
-public interface Address {
+public interface Address extends Entity{
 	
 	public Customer getCustomer();
 	

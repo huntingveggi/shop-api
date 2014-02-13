@@ -1,6 +1,6 @@
 package de.is.project.shop.api.domain;
 
-public interface OrderItem {
+public interface OrderItem extends Entity{
 	
 	public Product getProduct();
 	

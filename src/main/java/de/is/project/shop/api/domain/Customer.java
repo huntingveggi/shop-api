@@ -1,6 +1,6 @@
 package de.is.project.shop.api.domain;
 
-public interface Customer {
+public interface Customer extends Entity{
 	
 	public String getTitle();
 

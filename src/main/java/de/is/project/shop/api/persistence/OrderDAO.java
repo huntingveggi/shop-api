@@ -9,4 +9,5 @@ public interface OrderDAO extends CrudDAO<Order>{
 	
 	Collection<Order> findByCustomer(Customer customer);
 	
+	public Order findById(int id);
 }

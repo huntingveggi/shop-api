@@ -4,6 +4,10 @@ import java.util.Collection;
 
 import de.is.project.shop.api.domain.Product;
 
+/**
+ * @author Dennis Ahaus
+ *
+ */
 public interface ProductService {
 	
 	Collection<Product> findByCategory(String category);

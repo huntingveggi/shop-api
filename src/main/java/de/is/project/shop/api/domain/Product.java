@@ -1,5 +1,6 @@
 package de.is.project.shop.api.domain;
 
+import java.io.InputStream;
 import java.util.Collection;
 
 public interface Product extends Entity {
@@ -30,9 +31,9 @@ public interface Product extends Entity {
 
 	public void setStock(int stock);
 
-	public byte[] getPicture();
+	public InputStream getPicture();
 
-	public void setPicture(byte[] picture);
+	public void setPicture(InputStream picture);
 
 	public double getRateOfTaxation();
 

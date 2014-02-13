@@ -9,18 +9,10 @@ import de.is.project.shop.api.domain.Product;
 
 public interface ProductDAO extends CrudDAO<Product> {
 
-	Product persist(Product product);
-
-	Product findById(int id);
-
 	Collection<Product> findByAttributes(HashMap<String, Object> map);
 
 	Collection<Product> findByCategories(Collection<Category> categories);
 
 	Collection<Product> findByProducer(Producer producer);
-
-	Product update(Product product);
-
-	void delete(Product product);
 
 }

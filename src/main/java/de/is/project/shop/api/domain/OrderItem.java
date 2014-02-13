@@ -20,7 +20,7 @@ public interface OrderItem {
 	
 	public double getDiscount();
 	
-	public void setDiscount();
+	public void setDiscount(double discount);
 	
 	public String getStatus();
 	

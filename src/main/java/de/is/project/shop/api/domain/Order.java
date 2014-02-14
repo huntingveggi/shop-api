@@ -15,7 +15,7 @@ public interface Order extends Entity {
 	
 	public void setCustomer(Customer customer);
 	
-	public Address getDeliveryAddres();
+	public Address getDeliveryAddress();
 	
 	public void setDeliveryAddress(Address deliveryAddress);
 	

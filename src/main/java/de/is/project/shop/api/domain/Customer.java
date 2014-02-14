@@ -19,6 +19,10 @@ public interface Customer extends Entity{
 	public void setSex(String sex);
 
 	public boolean isBillingCustomer();
+	
+	public Address getAddress();
+	
+	public void setAddress(Address address);
 
 	public void setBillingCustomer(boolean billingCustomer);
 

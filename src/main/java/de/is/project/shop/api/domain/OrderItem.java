@@ -26,4 +26,8 @@ public interface OrderItem extends Entity{
 	
 	public void setStatus(String status);
 	
+	public Order getOrder();
+	
+	public void setOrder(Order order);
+	
 }

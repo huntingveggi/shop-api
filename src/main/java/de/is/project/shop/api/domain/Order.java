@@ -31,4 +31,8 @@ public interface Order extends Entity {
 	
 	public void setStatus(String status);
 	
+	public double getTotal();
+	
+	public void setTotal(double total);
+	
 }

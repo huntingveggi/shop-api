@@ -30,4 +30,8 @@ public interface OrderItem extends Entity{
 	
 	public void setOrder(Order order);
 	
+	public double getTotal();
+	
+	public void setTotal(double total);
+	
 }

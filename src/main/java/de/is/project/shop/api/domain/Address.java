@@ -19,6 +19,10 @@ public interface Address extends Entity{
 	
 	public void setZipCode(String zipCode);
 	
+	public String getCity();
+	
+	public void setCity(String city);
+	
 	public String getCountry();
 	
 	public void setCountry(String country);

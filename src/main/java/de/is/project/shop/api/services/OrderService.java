@@ -1,5 +1,6 @@
 package de.is.project.shop.api.services;
 
+import de.is.project.shop.api.domain.Customer;
 import de.is.project.shop.api.domain.Order;
 import de.is.project.shop.api.domain.Product;
 
@@ -16,7 +17,7 @@ public interface OrderService {
 	public void refreshOrder();
 	
 	/* Implement as Singleton */
-	public void setOrder(Order order);
+	public void setOrder(Order order, Customer customer);
 	
 	public Order getOrder();
 	

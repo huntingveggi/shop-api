@@ -34,4 +34,12 @@ public interface OrderItem extends Entity{
 	
 	public void setTotal(double total);
 	
+	public BillOfDelivery getBillOfDelivery();
+	
+	public void setBillOfDelivery(BillOfDelivery billOfDelivery);
+	
+	public Invoice getInvoice();
+	
+	public void setInvoice(Invoice invoice);
+	
 }

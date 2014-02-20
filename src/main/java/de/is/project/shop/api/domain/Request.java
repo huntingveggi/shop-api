@@ -7,7 +7,7 @@ public interface Request {
 	
 	public Customer getCustomer();
 	
-	public void setCustomer();
+	public void setCustomer(Customer customer);
 	
 	public Collection<RequestItem> getItems();
 	
@@ -34,4 +34,8 @@ public interface Request {
 	public String getStatus();
 	
 	public void setStatus(String status);
+	
+	public double getTotal();
+	
+	public void setTotal(double total);
 }

@@ -21,4 +21,8 @@ public interface RequestItem {
 	public double getDiscount();
 	
 	public void setDiscount(double discount);
+	
+	public double getTotal();
+	
+	public void setTotal(double total);
 }

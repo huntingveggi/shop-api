@@ -12,10 +12,10 @@ public interface Message {
 	
 	public boolean getIsRead();
 	
-	public void setIsRead(boolean isRead);
+	public void setRead(boolean isRead);
 	
 	public boolean getIsFromAdmin();
 	
-	public void setIsFromAdmin(boolean isFromAdmin);
+	public void setFromAdmin(boolean isFromAdmin);
 	
 }

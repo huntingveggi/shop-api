@@ -35,4 +35,7 @@ public interface Order extends Entity, Visitable {
 	
 	public void setTotal(double total);
 	
+	public String getPaymentTerm();
+	
+	public void setPaymentTerm(String paymentTerm);
 }

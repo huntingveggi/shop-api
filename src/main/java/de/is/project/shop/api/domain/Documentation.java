@@ -2,7 +2,7 @@ package de.is.project.shop.api.domain;
 
 import java.io.InputStream;
 
-public interface Documentation {
+public interface Documentation extends Entity {
 	
 	public Request getRequest();
 	

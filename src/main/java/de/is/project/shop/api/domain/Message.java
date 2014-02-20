@@ -1,6 +1,6 @@
 package de.is.project.shop.api.domain;
 
-public interface Message {
+public interface Message extends Entity{
 
 	public Request getRequest();
 	

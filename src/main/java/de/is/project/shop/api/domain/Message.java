@@ -10,11 +10,11 @@ public interface Message {
 	
 	public void setText(String text);
 	
-	public boolean getIsRead();
+	public boolean isRead();
 	
 	public void setRead(boolean isRead);
 	
-	public boolean getIsFromAdmin();
+	public boolean isFromAdmin();
 	
 	public void setFromAdmin(boolean isFromAdmin);
 	

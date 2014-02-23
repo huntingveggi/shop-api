@@ -15,4 +15,6 @@ public interface ProductDAO extends CrudDAO<Product> {
 
 	Collection<Product> findByProducer(Producer producer);
 
+	public abstract Collection<Product> findAll();
+
 }

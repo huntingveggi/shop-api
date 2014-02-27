@@ -6,4 +6,6 @@ public interface CustomerDAO extends CrudDAO<Customer> {
 	
 	public Customer findById(int id);
 	
+	public Customer findByActivationKey(String activationKey);
+	
 }

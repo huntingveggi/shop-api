@@ -25,6 +25,10 @@ public interface Customer extends Entity{
 	public String getActivationKey();
 	
 	public void setActivationKey(String activationKey);
+	
+	public boolean isActive();
+	
+	public void setActive(boolean active);
 
 	public String getSex();
 

@@ -16,10 +16,12 @@ public interface Message extends Entity{
 	
 	public void setRead(boolean isRead);
 	
-	public boolean isFromAdmin();
-	
-	public void setFromAdmin(boolean isFromAdmin);
-	
 	Date getMessageDate();
+	
+	public Customer getCustomer();
+	
+	public void setCustomer(Customer customer);
+	
+	public void setMessageDate(Date messageDate);
 	
 }

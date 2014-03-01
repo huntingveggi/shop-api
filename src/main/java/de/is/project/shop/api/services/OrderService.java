@@ -7,6 +7,7 @@ import de.is.project.shop.api.domain.Invoice;
 import de.is.project.shop.api.domain.Order;
 import de.is.project.shop.api.domain.OrderItem;
 import de.is.project.shop.api.domain.Product;
+import de.is.project.shop.api.domain.Request;
 import de.is.project.shop.api.domain.ShoppingCart;
 
 /**
@@ -34,4 +35,6 @@ public interface OrderService {
 	
 	public Order createOrderfromShoppingCart(ShoppingCart shoppingCart);
 	
+	public Order createOrderfromRequest(Request request);
+
 }

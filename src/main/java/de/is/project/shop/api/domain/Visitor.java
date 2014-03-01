@@ -5,4 +5,7 @@ public interface Visitor {
 	public void visit(ShoppingCart shoppingCart);
 
 	public void visit(Order order);
+	
+	public void visit(Request request);
+
 }

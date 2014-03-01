@@ -1,5 +1,7 @@
 package de.is.project.shop.api.domain;
 
+import java.util.Date;
+
 public interface Message extends Entity{
 
 	public Request getRequest();
@@ -17,5 +19,7 @@ public interface Message extends Entity{
 	public boolean isFromAdmin();
 	
 	public void setFromAdmin(boolean isFromAdmin);
+	
+	Date getMessageDate();
 	
 }

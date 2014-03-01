@@ -7,6 +7,7 @@ import de.is.project.shop.api.domain.Invoice;
 import de.is.project.shop.api.domain.Order;
 import de.is.project.shop.api.domain.OrderItem;
 import de.is.project.shop.api.domain.Product;
+import de.is.project.shop.api.domain.ShoppingCart;
 
 /**
  * @author Stefan Stahl
@@ -30,5 +31,7 @@ public interface OrderService {
 	public BillOfDelivery createBillOfDeliveryForItems(Collection<OrderItem> orderItems);
 	
 	public Invoice createInvoiceForItems(Collection<OrderItem> orderItems);
+	
+	public Order createOrderfromShoppingCart(ShoppingCart shoppingCart);
 	
 }

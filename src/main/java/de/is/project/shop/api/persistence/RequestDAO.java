@@ -11,4 +11,6 @@ public interface RequestDAO extends CrudDAO<Request> {
 	
 	Collection<Request> findByCustomer(Customer customer);
 	
+	public Request getNewInstance();
+	
 }

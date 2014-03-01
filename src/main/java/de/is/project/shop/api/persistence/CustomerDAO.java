@@ -8,4 +8,6 @@ public interface CustomerDAO extends CrudDAO<Customer> {
 	
 	public Customer findByActivationKey(String activationKey);
 	
+	public Customer getNewInstance();
+	
 }

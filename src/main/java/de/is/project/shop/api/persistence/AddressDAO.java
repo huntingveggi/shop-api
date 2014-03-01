@@ -8,4 +8,6 @@ import de.is.project.shop.api.domain.Customer;
 public interface AddressDAO extends CrudDAO<Address> {
 
 	public Collection<Address> findByCustomer(Customer customer);
+	
+	public Address getNewInstance();
 }

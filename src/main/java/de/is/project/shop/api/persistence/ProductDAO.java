@@ -12,7 +12,7 @@ public interface ProductDAO extends CrudDAO<Product> {
 
 	Collection<Product> findByAttributes(HashMap<String, Object> map);
 
-	Collection<Product> findByCategories(Collection<Category> categories);
+	Collection<Product> findByCategory(Category category);
 
 	Collection<Product> findByProducer(Producer producer);
 

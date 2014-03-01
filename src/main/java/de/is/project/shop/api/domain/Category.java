@@ -2,7 +2,7 @@ package de.is.project.shop.api.domain;
 
 import java.util.Collection;
 
-public interface Category {
+public interface Category extends Entity {
 
 	public String getName();
 

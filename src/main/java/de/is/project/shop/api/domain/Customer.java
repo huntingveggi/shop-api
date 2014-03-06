@@ -29,6 +29,10 @@ public interface Customer extends Entity{
 	public boolean isActive();
 	
 	public void setActive(boolean active);
+	
+	public String getRole();
+	
+	public void setRole(String role);
 
 	public String getSex();
 
